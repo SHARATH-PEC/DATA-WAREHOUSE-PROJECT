@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-This project focuses on building a modern **Data Warehouse using Microsoft SQL Server** to consolidate, clean, transform, and organize CRM(Customer Relationship Management) data.
+This project focuses on building a modern **Data Warehouse using Microsoft SQL Server** to consolidate, clean, transform, and organize CRM(Customer Relationship Management) data and ERP(Enterprise Resource Planning) data.
 
 The primary objective is to transform raw data into structured, reliable, and analytics-ready information using the Medallion Architecture (Bronze, Silver, and Gold layers).
 
@@ -10,7 +10,7 @@ This project demonstrates practical Data Engineering concepts, including data in
 
 ## 🎯 Project Objectives
 
-- Build a Data Warehouse from raw CRM datasets.
+- Build a Data Warehouse from raw CRM and ERP datasets.
 - Implement the Medallion Architecture.
 - Load raw data into the Bronze layer.
 - Clean and transform data in the Silver layer.
@@ -88,7 +88,7 @@ CRM-Data-Warehouse/
 │   └── CRM/
 │       └── *.csv
 │
-├── scripts/
+├── projectcode/
 │   ├── bronze/
 │   ├── silver/
 │   └── gold/
@@ -100,7 +100,7 @@ CRM-Data-Warehouse/
 
 ## ⚙️ Project Workflow
 
-1. Collect CRM source datasets in CSV format.
+1. Collect CRM and ERP source datasets in CSV format.
 2. Create the Data Warehouse database in SQL Server.
 3. Create separate schemas for Bronze, Silver, and Gold.
 4. Load raw CSV data into Bronze tables.
