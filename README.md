@@ -26,7 +26,7 @@ The project follows the Medallion Architecture.
              SOURCE DATA
                   |
                   |
-          CRM CSV DATASETS
+          CRM & ERP CSV DATASETS
                   |
                   v
           +---------------+
